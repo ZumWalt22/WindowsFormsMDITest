@@ -146,7 +146,7 @@ namespace WindowsFormsMDITest
             ls.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
 
             //アクション追加
-            ls.Click += new System.EventHandler(this.lineShape_MouseClick);
+            ls.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lineShape_MouseClick);
 
             //線分コンテナに追加
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] { ls });
