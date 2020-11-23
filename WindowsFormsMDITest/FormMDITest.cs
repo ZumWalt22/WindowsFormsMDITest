@@ -13,16 +13,6 @@ namespace WindowsFormsMDITest
 {
     public partial class FormMDITest : Form
     {
-        //MDI
-        //https://dobon.net/vb/dotnet/form/mdiapplication.html
-
-        //フォーム表示　座標指定
-        //https://dobon.net/vb/dotnet/form/startposition.html
-
-        //線分
-        //https://www.out48.com/archives/1656/
-
-
         //線分情報登録コンテナ
         ShapeContainer shapeContainer;
 
