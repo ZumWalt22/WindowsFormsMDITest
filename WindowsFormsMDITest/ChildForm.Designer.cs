@@ -46,9 +46,11 @@ namespace WindowsFormsMDITest
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 134);
+            this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ChildForm";
+            this.ShowInTaskbar = false;
             this.Text = "ChildForm";
             this.Load += new System.EventHandler(this.ChildForm_Load);
             this.Move += new System.EventHandler(this.ChildForm_Move);

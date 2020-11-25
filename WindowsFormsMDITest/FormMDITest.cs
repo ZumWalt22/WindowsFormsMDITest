@@ -68,7 +68,7 @@ namespace WindowsFormsMDITest
         private void lineShape_MouseClick(object sender, MouseEventArgs e)
         {
             //メッセージボックスを表示する
-            MessageBox.Show("線分が選択されました","ボタンアクション",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("線分が選択されました", "ボタンアクション", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         //----------------------
@@ -132,8 +132,8 @@ namespace WindowsFormsMDITest
             //線分スタイルを定義
             ls.BorderColor = Color.Blue;
             ls.SelectionColor = Color.Red;
-            ls.BorderWidth = 4;
-            ls.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
+            ls.BorderWidth = 8;
+            ls.BorderStyle = System.Drawing.Drawing2D.DashStyle.Solid;
 
             //アクション追加
             ls.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lineShape_MouseClick);
